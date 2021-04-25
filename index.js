@@ -1,20 +1,8 @@
 function fetchBooks() {
-  fetch('https://anapioficeandfire.com/api/books')
+  return fetch('https://anapioficeandfire.com/api/books')
   .then(resp => resp.json())
   .then(json => renderBooks(json));
-
 }
-
-// function fetchBooks() {  return fetch("https://anapioficeandfire.com/api/books")    .then(resp => resp.json())    .then(json => renderBooks(json))}
-//
-//
-//
-//
-//
-// 12:41
-// function fetchBooks() {  return fetch("https://anapioficeandfire.com/api/books")    .then(resp => resp.json())    .then(json => renderBooks(json))}
-// 12:42
-// return fetch(URL) ba3den el then
 
 
 
