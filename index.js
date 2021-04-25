@@ -5,6 +5,20 @@ function fetchBooks() {
 
 }
 
+// function fetchBooks() {  return fetch("https://anapioficeandfire.com/api/books")    .then(resp => resp.json())    .then(json => renderBooks(json))}
+// 
+// 
+// 
+// 
+// 
+// 12:41
+// function fetchBooks() {  return fetch("https://anapioficeandfire.com/api/books")    .then(resp => resp.json())    .then(json => renderBooks(json))}
+// 12:42
+// return fetch(URL) ba3den el then
+
+
+
+
 function renderBooks(books) {
   const main = document.querySelector('main');
   books.forEach(book => {
